@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "updated_at": null,
+  "window_days": 60,
+  "success_count": 0,
+  "errors": [],
+  "items": [],
+  "note": "Automatisch eingehende Feed-Treffer sind noch nicht redaktionell bewertet."
+}

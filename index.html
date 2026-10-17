@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark"><meta name="theme-color" content="#0b1221">
+  <meta name="description" content="Daily AI Radar: kuratierte KI-Entwicklungen, Modellbenchmarks und 60-Tage-Rückblick">
+  <title>Daily AI Radar · Intelligence Workspace</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar" aria-label="Navigation">
+      <a class="brand" href="#dashboard"><span class="brand-icon">✳</span><span>DAILY AI <b>RADAR</b><small>INTELLIGENCE WORKSPACE</small></span></a>
+      <div class="nav-group">WORKSPACE</div>
+      <nav class="nav" id="nav">
+        <a href="#dashboard" data-page="dashboard"><span>◫</span> Übersicht</a>
+        <a href="#review" data-page="review"><span>◷</span> 60-Tage-Rückblick</a>
+        <a href="#benchmarks" data-page="benchmarks"><span>▥</span> Modelle & Benchmarks</a>
+        <a href="#evolution" data-page="evolution"><span>⑂</span> Entwicklungslinien</a>
+        <a href="#news" data-page="news"><span>≡</span> Meldungen & Quellen</a>
+        <a href="#settings" data-page="settings"><span>⚙</span> Daten & Aktualisierung</a>
+      </nav>
+      <div class="side-bottom"><div class="signal"><i></i> PUBLIC RESEARCH · NO INTERNAL DATA</div><p>Primärquellen bevorzugt<br>Keine geheimen Informationen</p><a href="https://github.com/skaruporis-netizen/Daily-AI-Radar" target="_blank" rel="noopener noreferrer">GitHub Repository ↗</a></div>
+    </aside>
+    <div class="workspace">
+      <header class="header"><div class="header-left"><button class="menu" id="menu" aria-label="Menü umschalten">☰</button><span id="pageLabel">Intelligence Overview</span><span class="header-sep">/</span><span class="header-month">Oktober 2026</span></div><div class="header-right"><span class="update-status" id="headerStatus"><i></i> Datenstand wird geladen</span><button class="refresh-btn" id="refresh" title="Neueste veröffentlichte Daten laden"><span id="refreshIcon">↻</span> <span id="refreshText">Jetzt aktualisieren</span></button></div></header>
+      <main class="main" id="main" tabindex="-1"><div class="loading">Radar lädt …</div></main>
+      <footer class="footer">Daily AI Radar · Quellenbasierte, zeitgebundene Einordnung <span>Keine personenbezogenen oder internen Engineering-Daten</span></footer>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

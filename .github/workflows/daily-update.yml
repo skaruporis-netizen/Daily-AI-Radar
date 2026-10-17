@@ -1,0 +1,32 @@
+name: Daily AI Radar · Quellen aktualisieren
+on:
+  schedule:
+    # 08:00 Berlin: im Sommer 06:00 UTC, im Winter 07:00 UTC.
+    # Skript prüft Europe/Berlin und lässt nur den passenden Lauf zu.
+    - cron: '0 6,7 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: radar-update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Neue Quellen abrufen
+        run: python scripts/refresh.py
+      - name: Nur tatsächliche Datenänderungen committen
+        run: |
+          if git diff --quiet -- data/inbox.json; then
+            echo "Keine neuen Daten"; exit 0
+          fi
+          git config user.name 'daily-ai-radar[bot]'
+          git config user.email 'daily-ai-radar[bot]@users.noreply.github.com'
+          git add data/inbox.json
+          git commit -m "data: refresh AI sources [skip ci]"
+          git push
