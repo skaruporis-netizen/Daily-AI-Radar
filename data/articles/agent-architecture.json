@@ -1,0 +1,68 @@
+{
+  "id": "agent-architecture",
+  "title": "Agenten im Engineering: Vom Chatbot zum kontrollierten Workflow",
+  "deck": "Warum ein produktiver KI-Agent mehr benötigt als ein Sprachmodell und ein paar Werkzeuge.",
+  "category": "Engineering",
+  "priority": "ACTION",
+  "published_at": "2026-10-18",
+  "sections": [
+    {
+      "heading": "Die entscheidende Architekturfrage",
+      "paragraphs": [
+        "Ein Sprachmodell kann Vorschläge machen, Werkzeuge aufrufen und mehrere Schritte planen. In einer industriellen Entwicklungsumgebung reicht das nicht aus: Berechtigungen, Ausführungsgrenzen, Tests und Freigaben müssen unabhängig vom Modell kontrolliert werden.",
+        "Ein geeigneter Aufbau trennt die Planung durch das Modell von der technischen Ausführung und der unabhängigen Überprüfung der Ergebnisse."
+      ]
+    },
+    {
+      "heading": "Ein kontrollierter Ablauf",
+      "paragraphs": [
+        "Ein Defect-Agent erhält einen klar begrenzten Auftrag, liest freigegebene Logs und Repository-Dateien, formuliert eine Hypothese und schlägt eine Änderung auf einem separaten Branch vor. Deterministische Tests und ein menschliches Review entscheiden über die Übernahme."
+      ],
+      "table": {
+        "columns": [
+          "Baustein",
+          "Aufgabe"
+        ],
+        "rows": [
+          [
+            "Orchestrator",
+            "Zustände, Schritte und Freigaben steuern"
+          ],
+          [
+            "Agent Runtime",
+            "Isolierte und nachvollziehbare Ausführung"
+          ],
+          [
+            "Tool Gateway",
+            "Berechtigungen und Netzwerkzugriff begrenzen"
+          ],
+          [
+            "Verifier",
+            "Ergebnisse unabhängig prüfen"
+          ],
+          [
+            "Audit Trail",
+            "Aktionen, Versionen und Entscheidungen dokumentieren"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Ein sinnvoller erster PoC",
+      "paragraphs": [
+        "Mit 20–30 historischen, anonymisierten Defects beginnen. Ein Agent darf analysieren, reproduzieren und einen Pull Request vorbereiten, aber nicht eigenständig mergen. Die Auswertung misst erfolgreiche Fixes, Regressionen, menschliche Reviewzeit und Kosten pro verifiziertem Ergebnis."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://docs.github.com/en/copilot",
+      "type": "Technische Dokumentation"
+    },
+    {
+      "url": "https://modelcontextprotocol.io/introduction",
+      "type": "Protokolldokumentation"
+    }
+  ],
+  "evidence_note": "Architekturvorschlag und redaktionelle Synthese; keine Behauptung über einen neuen Produktrelease."
+}
