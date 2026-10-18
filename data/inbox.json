@@ -1,9 +1,182 @@
 {
   "schema": 1,
-  "updated_at": null,
+  "updated_at": "2026-10-18T08:14:04+02:00",
   "window_days": 60,
-  "success_count": 0,
-  "errors": [],
-  "items": [],
-  "note": "Automatisch eingehende Feed-Treffer sind noch nicht redaktionell bewertet."
+  "success_count": 2,
+  "errors": [
+    "Microsoft Blog: HTTPError: HTTP Error 404: Not Found"
+  ],
+  "items": [
+    {
+      "id": "b9fbebb49a086aa4",
+      "date": "2026-10-16",
+      "title": "We’re sharing 3 tips to study smarter with Gemini Notebook.",
+      "summary": "Master your exams with Google Gemini Notebook’s new 60-second video overviews and interactive quiz formats. Try these study tools at notebook.google.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "97665fd5758ad12c",
+      "date": "2026-10-16",
+      "title": "Open source license compliance generally available",
+      "summary": "Enterprises can now manage their dependencies’ licenses at scale with sophisticated, ruleset-based checks that enforce a centralized policy. Open source license compliance is now generally available for GitHub Enterprise Cloud… The post Open source license compliance generally available appeared first on The GitHub Blog .",
+      "url": "https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available",
+      "source": "GitHub Changelog",
+      "category": "Engineering",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "dcaabf5e08f6a894",
+      "date": "2026-10-15",
+      "title": "An intelligent new shopping cart",
+      "summary": "Universal Cart helps make holiday shopping easier. It’s now available in the U.S. across Search and the Gemini app.",
+      "url": "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "9c2c9f923050a840",
+      "date": "2026-10-15",
+      "title": "400 publications are now partnering with us on our News AI pilot program.",
+      "summary": "People’s information habits are evolving quickly, and platforms and publishers of all sizes are navigating these changes. To help meet this moment, we’re evolving our pa…",
+      "url": "https://blog.google/products-and-platforms/products/news/news-ai-pilot-update-publishers/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "80fff3a90d51ccf9",
+      "date": "2026-10-15",
+      "title": "AI Scan for pull requests generally available",
+      "summary": "Code scanning AI Scan for pull requests is now generally available. It complements CodeQL by finding vulnerabilities in pull request changes for languages and frameworks that CodeQL does not currently… The post AI Scan for pull requests generally available appeared first on The GitHub Blog .",
+      "url": "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available",
+      "source": "GitHub Changelog",
+      "category": "Engineering",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "7d0ed3cb5cb4581a",
+      "date": "2026-10-15",
+      "title": "TIME has named Google SynthID one of the Best Inventions of 2026.",
+      "summary": "TIME named Google SynthID a Best Invention of 2026 for its groundbreaking approach to AI watermarking and verification.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-time-best-inventions/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "449b1014bc1499c1",
+      "date": "2026-10-15",
+      "title": "Agentic autofix for code scanning alerts general availability",
+      "summary": "Agentic autofix for code scanning alerts is now generally available. It remediates alerts by working across your codebase the way a developer would: it explores relevant files, proposes a fix,… The post Agentic autofix for code scanning alerts general availability appeared first on The GitHub Blog .",
+      "url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability",
+      "source": "GitHub Changelog",
+      "category": "Engineering",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "30b77afd86fd20a8",
+      "date": "2026-10-15",
+      "title": "Bringing the magic: Google breaks open a bottleneck in quantum computing",
+      "summary": "In a paper published in Science, Google has shown that Magic State Cultivation works on Google Quantum AI hardware.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "1b9d80577b59a084",
+      "date": "2026-10-15",
+      "title": "Check if a text message is a scam using Circle to Search.",
+      "summary": "Use Google Circle to Search to analyze suspicious texts for scams. Long-press your home button to get AI insights on messages. See how it works.",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/circle-to-search-android-text-message-scams/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "0fb5cf8a26c77a05",
+      "date": "2026-10-15",
+      "title": "Upcoming deprecation of selected GitHub Copilot models in mid-November",
+      "summary": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on November 16th, 2026: Model Deprecation date… The post Upcoming deprecation of selected GitHub Copilot models in mid-November appeared first on The GitHub Blog .",
+      "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november",
+      "source": "GitHub Changelog",
+      "category": "Engineering",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "09cafcfe0698167f",
+      "date": "2026-10-15",
+      "title": "More ways to connect with the web from Search",
+      "summary": "We’re updating AI Mode and AI Overviews to include clearer links, context about sources, and more.",
+      "url": "https://blog.google/products-and-platforms/products/search/updates-ai-mode-overviews-explore-web/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "ffb5a326c8ee4530",
+      "date": "2026-10-14",
+      "title": "HydraFusion updates and new Max option",
+      "summary": "HydraFusion has an updated model pool, improved orchestration workflows, and introduces HydraFusion Max. Both HydraFusion and HydraFusion Max are available across VS Code, the GitHub Copilot app, and GitHub Copilot… The post HydraFusion updates and new Max option appeared first on The GitHub Blog .",
+      "url": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option",
+      "source": "GitHub Changelog",
+      "category": "Engineering",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "f5fa4d6131d7db33",
+      "date": "2026-10-14",
+      "title": "GitHub Actions workflow lockfiles in public preview",
+      "summary": "GitHub Actions workflow dependency lockfiles are now in public preview for GitHub Enterprise Cloud, GitHub Enterprise Cloud with data residency, Team, and Free plans. Tags and branches can move after… The post GitHub Actions workflow lockfiles in public preview appeared first on The GitHub Blog .",
+      "url": "https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview",
+      "source": "GitHub Changelog",
+      "category": "Engineering",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "f0b80431f300200a",
+      "date": "2026-10-14",
+      "title": "17 organizations using AI to accelerate scientific breakthroughs",
+      "summary": "These groups are receiving $36 million through the Google.org Impact Challenge: AI for Science.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/impact-challenge-ai-science-recipients/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "e2d194ea6676ff63",
+      "date": "2026-10-14",
+      "title": "Research@ 2026: Novel capabilities and intelligence",
+      "summary": "We’re sharing our latest milestones and some of the advanced AI capabilities and intelligence that we’re putting in the hands of experts.",
+      "url": "https://blog.google/innovation-and-ai/technology/research/research-capabilities-intelligence-2026/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "18521ab849e45ccf",
+      "date": "2026-10-14",
+      "title": "We’re powering European scientific discovery with advanced AI compute and frontier models.",
+      "summary": "Google DeepMind and Google Cloud are providing up to 200 top European scientific researchers with direct access to our frontier models, together with $3 million in compu…",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/were-powering-european-scientific-discovery-with-advanced-ai-compute-and-frontier-models/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "624d8c9f06fd047f",
+      "date": "2026-10-13",
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "summary": "Learn more about our approach to safety and security for Gemini 4 Argon.",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    }
+  ],
+  "note": "Automatisierte Quellenfunde, nicht redaktionell geprüft."
 }
