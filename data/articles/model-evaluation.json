@@ -65,5 +65,7 @@
       "type": "Agentenevaluation und Forschung"
     }
   ],
-  "evidence_note": "Methodische Einordnung. Enthält bewusst keine erfundenen Modell-Leistungswerte."
+  "evidence_note": "Methodische Einordnung. Enthält bewusst keine erfundenen Modell-Leistungswerte.",
+  "cover": "assets/cover-models.svg",
+  "cover_alt": "Illustrative Entwicklungslinien ohne echte Messwerte"
 }
