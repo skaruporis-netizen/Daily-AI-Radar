@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "articles": [
+    "data/articles/agent-architecture.json",
+    "data/articles/model-evaluation.json"
+  ]
+}

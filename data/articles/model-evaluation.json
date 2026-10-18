@@ -1,0 +1,69 @@
+{
+  "id": "model-evaluation",
+  "title": "Warum ein KI-Ranking allein keine Modellentscheidung erlaubt",
+  "deck": "Benchmarks, Kosten und Zuverlässigkeit müssen zu den tatsächlichen Engineering-Aufgaben passen.",
+  "category": "Modelle",
+  "priority": "WATCH",
+  "published_at": "2026-10-18",
+  "sections": [
+    {
+      "heading": "Ein Benchmark misst immer nur einen Ausschnitt",
+      "paragraphs": [
+        "Ein Modell kann bei allgemeinen Reasoning-Aufgaben sehr gut abschneiden und trotzdem bei einem konkreten Engineering-Workflow unzuverlässig sein. Benchmarks unterscheiden sich nach Datensatz, Version, verfügbarem Toolzugriff und Reasoning-Budget.",
+        "Werte verschiedener Benchmarkversionen oder Effort-Stufen sollten nicht als einheitliche Zeitreihe dargestellt werden. Fehlende historische Messwerte sind keine Nullwerte."
+      ]
+    },
+    {
+      "heading": "Die richtige Kennzahl: Erfolg pro Aufgabe",
+      "paragraphs": [
+        "Für einen Coding-Agenten zählen neben dem erfolgreichen Abschluss die tatsächlich bestandenen Tests, neu eingeführte Fehler, benötigte menschliche Korrekturen und Gesamtkosten.",
+        "Bei einer technischen Recherche zählen belastbare Quellen, korrekte Wiedergabe und die Fähigkeit, Unsicherheit zu benennen."
+      ],
+      "table": {
+        "columns": [
+          "Dimension",
+          "Praktische Messgröße"
+        ],
+        "rows": [
+          [
+            "Capability",
+            "Anteil unabhängig bestandener Aufgaben"
+          ],
+          [
+            "Zuverlässigkeit",
+            "Fehlerrate und notwendige Wiederholungen"
+          ],
+          [
+            "Kosten",
+            "Kosten pro erfolgreich verifizierter Aufgabe"
+          ],
+          [
+            "Sicherheit",
+            "Verstöße gegen definierte Handlungsgrenzen"
+          ],
+          [
+            "Betrieb",
+            "Laufzeit und Ressourcenverbrauch"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Ein reproduzierbarer Modellvergleich",
+      "paragraphs": [
+        "Ein fester Satz historischer Aufgaben, identische Toolrechte und ein unabhängiger Prüfer ermöglichen einen belastbareren Vergleich als einzelne Demo-Prompts. Die Ergebnisse sollten zusammen mit Modellversion, Datum und Testkonfiguration versioniert werden."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://artificialanalysis.ai/leaderboards/models",
+      "type": "Unabhängige Modellvergleiche"
+    },
+    {
+      "url": "https://metr.org/",
+      "type": "Agentenevaluation und Forschung"
+    }
+  ],
+  "evidence_note": "Methodische Einordnung. Enthält bewusst keine erfundenen Modell-Leistungswerte."
+}
