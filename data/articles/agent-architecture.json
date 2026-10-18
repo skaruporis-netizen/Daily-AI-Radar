@@ -64,5 +64,7 @@
       "type": "Protokolldokumentation"
     }
   ],
-  "evidence_note": "Architekturvorschlag und redaktionelle Synthese; keine Behauptung über einen neuen Produktrelease."
+  "evidence_note": "Architekturvorschlag und redaktionelle Synthese; keine Behauptung über einen neuen Produktrelease.",
+  "cover": "assets/cover-agent.svg",
+  "cover_alt": "Schematische Illustration vernetzter, kontrollierter KI-Agenten"
 }
