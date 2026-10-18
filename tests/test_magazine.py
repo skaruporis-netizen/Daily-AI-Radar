@@ -20,6 +20,8 @@ class MagazineTests(unittest.TestCase):
                 self.assertIn(key, a)
             self.assertTrue(a['sections'])
             self.assertTrue(a['sources'])
+            self.assertTrue((ROOT / a['cover']).is_file())
+            self.assertTrue(a.get('cover_alt'))
             for src in a['sources']:
                 self.assertTrue(src['url'].startswith('https://'))
 
