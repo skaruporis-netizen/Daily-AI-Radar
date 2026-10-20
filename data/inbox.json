@@ -1,12 +1,52 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-19T08:21:41+02:00",
+  "updated_at": "2026-10-20T08:19:32+02:00",
   "window_days": 60,
   "success_count": 2,
   "errors": [
     "Microsoft Blog: HTTPError: HTTP Error 404: Not Found"
   ],
   "items": [
+    {
+      "id": "ed64890568349a4e",
+      "date": "2026-10-19",
+      "title": "Copilot model policy API for enterprise, orgs, and teams",
+      "summary": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, enterprise apps, and organizations. What’s new GET and PATCH endpoints are now… The post Copilot model policy API for enterprise, orgs, and teams appeared first on The GitHub Blog .",
+      "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
+      "source": "GitHub Changelog",
+      "category": "Engineering",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "c4d5caa9ca539eec",
+      "date": "2026-10-19",
+      "title": "GitHub Copilot models deprecated on October 19, 2026",
+      "summary": "As of today, October 19, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). These… The post GitHub Copilot models deprecated on October 19, 2026 appeared first on The GitHub Blog .",
+      "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
+      "source": "GitHub Changelog",
+      "category": "Engineering",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "52617e21810898c1",
+      "date": "2026-10-19",
+      "title": "How to shape your slides and videos with Gemini Notebook",
+      "summary": "Gemini Notebook is giving more creative control in the creation of Slide Decks and Video Overviews.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "49ec90948533c3b6",
+      "date": "2026-10-19",
+      "title": "4 tips for styling outfits with Gemini",
+      "summary": "Here’s how athlete stylist Sydney Bordonaro uses Gemini to build looks for clients — and how you can build your own, too.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/stylist-outfit-tips-gemini/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    },
     {
       "id": "b9fbebb49a086aa4",
       "date": "2026-10-16",
