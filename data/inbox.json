@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-20T08:19:32+02:00",
+  "updated_at": "2026-10-21T08:20:59+02:00",
   "window_days": 60,
   "success_count": 2,
   "errors": [
@@ -8,10 +8,60 @@
   ],
   "items": [
     {
+      "id": "c7c1db1d24f97b16",
+      "date": "2026-10-21",
+      "title": "Southeast Asia’s digital economy to hit $368 billion",
+      "summary": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "d2f4c2d99fe6839a",
+      "date": "2026-10-20",
+      "title": "GitHub package firewall in public preview",
+      "summary": "An increasing number of malware attacks exploit systems at package installation time, harvesting credentials on CI/CD hosts or developer workstations without even running the package’s code. To stem this tide… The post GitHub package firewall in public preview appeared first on The GitHub Blog .",
+      "url": "https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview",
+      "source": "GitHub Changelog",
+      "category": "Engineering",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "bdc0c47bb06abc62",
+      "date": "2026-10-20",
+      "title": "New Gemini tools for small business owners",
+      "summary": "We’re announcing new tools for Gemini — including a dedicated business landing page — to help small business owners around the world.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "7a44093bc311d4a6",
+      "date": "2026-10-20",
+      "title": "Get hands-free personalized help on the road with Gemini",
+      "summary": "Gemini is available in cars globally. With Personal Intelligence, get uniquely tailored help while keeping your eyes on the road.",
+      "url": "https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "2508ace600ddfdfc",
+      "date": "2026-10-20",
+      "title": "Ask a Scientist: How can AI help doctors spend more time on collaborative care?",
+      "summary": "AMIE, an AI system people can chat with before doctor’s appointments, securely gathers patient information, and saves doctors time.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-clinical-study/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
       "id": "ed64890568349a4e",
       "date": "2026-10-19",
       "title": "Copilot model policy API for enterprise, orgs, and teams",
-      "summary": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, enterprise apps, and organizations. What’s new GET and PATCH endpoints are now… The post Copilot model policy API for enterprise, orgs, and teams appeared first on The GitHub Blog .",
+      "summary": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, agent apps, and organizations. What’s new GET and PATCH endpoints are now… The post Copilot model policy API for enterprise, orgs, and teams appeared first on The GitHub Blog .",
       "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
       "source": "GitHub Changelog",
       "category": "Engineering",
