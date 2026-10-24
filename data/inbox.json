@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-23T08:20:31+02:00",
+  "updated_at": "2026-10-24T08:16:41+02:00",
   "window_days": 60,
   "success_count": 2,
   "errors": [
@@ -8,11 +8,51 @@
   ],
   "items": [
     {
+      "id": "fbadabad4df2c3de",
+      "date": "2026-10-23",
+      "title": "See what 5 builders are making with Gemini 4 Argon",
+      "summary": "See how five builders are putting Gemini 4 Argon to work — and get inspired for your next build.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-argon-builders/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "dc1ed52c8837fe68",
+      "date": "2026-10-23",
+      "title": "Usage metrics API adds usage from tools like OpenCode",
+      "summary": "The Copilot usage metrics API now reports model usage from more of the tools your developers use with Copilot, including tools like OpenCode that weren’t previously captured in your reports.… The post Usage metrics API adds usage from tools like OpenCode appeared first on The GitHub Blog .",
+      "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
+      "source": "GitHub Changelog",
+      "category": "Engineering",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
       "id": "a45f5dfbc3465c86",
       "date": "2026-10-23",
       "title": "GitHub Copilot in Visual Studio — September update",
       "summary": "September 2026 brought deeper visibility into your work: explore pull requests without leaving chat, bring the AI model your team trusts, and fix vulnerable packages the moment Visual Studio flags… The post GitHub Copilot in Visual Studio — September update appeared first on The GitHub Blog .",
       "url": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
+      "source": "GitHub Changelog",
+      "category": "Engineering",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "6174c1cc26228ddf",
+      "date": "2026-10-23",
+      "title": "Enterprise installations for GitHub Apps generally available",
+      "summary": "Installing GitHub Apps on your enterprise is now generally available. You can replace classic PATs with GitHub Apps in more of your enterprise and organization automation with the expanded API… The post Enterprise installations for GitHub Apps generally available appeared first on The GitHub Blog .",
+      "url": "https://github.blog/changelog/2026-10-23-enterprise-installations-for-github-apps-generally-available",
+      "source": "GitHub Changelog",
+      "category": "Engineering",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "400d918642962961",
+      "date": "2026-10-23",
+      "title": "Turn notifications into code with GitHub Copilot in Teams",
+      "summary": "The new GitHub app in Teams brings notifications and Copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group… The post Turn notifications into code with GitHub Copilot in Teams appeared first on The GitHub Blog .",
+      "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
       "source": "GitHub Changelog",
       "category": "Engineering",
       "status": "NEU · UNGEPRÜFT"
