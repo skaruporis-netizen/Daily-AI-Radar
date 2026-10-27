@@ -1,12 +1,52 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-26T08:40:37+01:00",
+  "updated_at": "2026-10-27T08:35:50+01:00",
   "window_days": 60,
   "success_count": 2,
   "errors": [
     "Microsoft Blog: HTTPError: HTTP Error 404: Not Found"
   ],
   "items": [
+    {
+      "id": "b26f70c790034ce0",
+      "date": "2026-10-26",
+      "title": "GitHub Copilot assisted permissions generally available",
+      "summary": "Assisted permissions are now generally available in GitHub Copilot CLI, GitHub Copilot app, and Visual Studio Code. When Copilot requests permission to run a command, access a file system path,… The post GitHub Copilot assisted permissions generally available appeared first on The GitHub Blog .",
+      "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
+      "source": "GitHub Changelog",
+      "category": "Engineering",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "b1d7eb2dedce5839",
+      "date": "2026-10-26",
+      "title": "Our newest AI Quest: Mapping the human brain",
+      "summary": "Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "256c7b6c72dd5aaa",
+      "date": "2026-10-26",
+      "title": "GPT-6.1 Terra in GitHub Copilot",
+      "summary": "GPT-6.1 Terra, OpenAI’s newest model, is now generally available in GitHub Copilot. It is designed for everyday agentic coding and terminal work at a lower cost than GPT-6.1 Sol. In… The post GPT-6.1 Terra in GitHub Copilot appeared first on The GitHub Blog .",
+      "url": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot",
+      "source": "GitHub Changelog",
+      "category": "Engineering",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "1f93e5d0440cbc79",
+      "date": "2026-10-26",
+      "title": "15 college students share their favorite Gemini features",
+      "summary": "We asked 15 college students about their favorite Gemini features for learning, studying, taking notes, and more.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/college-student-favorite-features/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    },
     {
       "id": "fbadabad4df2c3de",
       "date": "2026-10-23",
