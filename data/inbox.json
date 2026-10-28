@@ -1,12 +1,42 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-27T08:35:50+01:00",
+  "updated_at": "2026-10-28T08:45:11+01:00",
   "window_days": 60,
   "success_count": 2,
   "errors": [
     "Microsoft Blog: HTTPError: HTTP Error 404: Not Found"
   ],
   "items": [
+    {
+      "id": "cc7dc046155f648c",
+      "date": "2026-10-27",
+      "title": "8 examples of Gemini 4 Argon in action",
+      "summary": "From deep research to interactive design, here are eight examples of what Gemini 4 Argon, our most intelligent model yet, is capable of.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-argon-in-action/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "92608e65bdba9862",
+      "date": "2026-10-27",
+      "title": "GitHub Copilot supports server-to-server authentication",
+      "summary": "GitHub Copilot now supports server-to-server authentication for GitHub Apps installed on organizations, available in public preview. Services and agents built with the GitHub Copilot SDK can now make requests on… The post GitHub Copilot supports server-to-server authentication appeared first on The GitHub Blog .",
+      "url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
+      "source": "GitHub Changelog",
+      "category": "Engineering",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "319d52d61ca2c83a",
+      "date": "2026-10-27",
+      "title": "We’re announcing Genie 4, our new world model for real-time interactive simulation.",
+      "summary": "Today, we’re announcing our research on Genie 4, our new world model that brings unprecedented realism and native audio to real-time interactive simulation.The Genie 4 m…",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    },
     {
       "id": "b26f70c790034ce0",
       "date": "2026-10-26",
