@@ -1,12 +1,32 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-30T08:45:48+01:00",
+  "updated_at": "2026-10-31T08:40:22+01:00",
   "window_days": 60,
   "success_count": 2,
   "errors": [
     "Microsoft Blog: HTTPError: HTTP Error 404: Not Found"
   ],
   "items": [
+    {
+      "id": "ed7605e93ca5a959",
+      "date": "2026-10-30",
+      "title": "We’ve received our first response from the Project Suncatcher prototype satellite.",
+      "summary": "This week, we reached our \"Hello World\" milestone: the first-ever AI response from a data center class TPU in orbit.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    },
+    {
+      "id": "ec71bd9a606c7034",
+      "date": "2026-10-30",
+      "title": "See who has access to your Gmail inbox in 2 minutes.",
+      "summary": "Run a quick Google Security Checkup and protect your email with three quick and easy steps.",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/google-security-checkup/",
+      "source": "Google Blog",
+      "category": "Modelle",
+      "status": "NEU · UNGEPRÜFT"
+    },
     {
       "id": "ff479ec2b2cda02d",
       "date": "2026-10-29",
